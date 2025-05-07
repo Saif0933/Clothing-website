@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Forward - Your Style Destination</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Optional: Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- 1. Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">FashionForward</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#shop" class="nav-link">Shop</a></li>
+                <li class="nav-item"><a href="#men" class="nav-link">Men</a></li>
+                <li class="nav-item"><a href="#women" class="nav-link">Women</a></li>
+                <li class="nav-item"><a href="#sale" class="nav-link">Sale</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiK-NfbuNWMAxWjjK8BHcbaE1QQPAgI" aria-label="Search"><i class="fas fa-search"></i></a>
+                <a href="https://github.com/Saif0933/FreshMart" aria-label="User Account"><i class="fas fa-user"></i></a>
+                <a href="cart-modal" aria-label="Shopping Cart"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+             <!-- Basic Hamburger for mobile - functionality needs more JS -->
+             <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 2. Banner Section -->
+        <section class="banner" id="home">
+            <div class="banner-content">
+                <h1>New Season Arrivals</h1>
+                <p>Check out the latest trends for this season.</p>
+                <a href="#shop" class="btn btn-primary">Shop Now</a>
+            </div>
+        </section>
+
+        <!-- 3. Animation Slider Section -->
+        <section class="slider-section" id="shop">
+            <h2>Featured Collections</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <!-- Slide 1 -->
+                    <div class="slide">
+                        <img src="image/banner1.png" alt="Stylish Outfit 1">
+                        <div class="slide-caption">Casual Wear</div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="slide">
+                        <img src="image/banner2.png" alt="Stylish Outfit 2">
+                        <div class="slide-caption">Formal Attire</div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="slide">
+                        <img src="image/product12.png" alt="Stylish Outfit 3">
+                        <div class="slide-caption">Summer Vibes</div>
+                    </div>
+                    <!-- Add more slides as needed -->
+                </div>
+                <!-- Slider Navigation Buttons -->
+                <button class="slider-btn prev-btn" aria-label="Previous Slide"><</button>
+                <button class="slider-btn next-btn" aria-label="Next Slide">></button>
+            </div>
+        </section>
+
+        <!-- Placeholder for Product Grid -->
+        <section class="products" id="products">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <!-- Example Product Item (Repeat for more products) -->
+                <div class="product-item">
+                    <img src="image/product1.png" alt="Product Name">
+                    <h3>Full T-shirt</h3>
+                    <p class="price">$95.99</p>
+                    <button class="btn btn-secondary">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="image/shirt_pro.png" alt="Product Name">
+                    <h3>Dennie jacket</h3>
+                    <p class="price">$59.99</p>
+                    <button class="btn btn-secondary">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="image/product2.png" alt="Product Name">
+                    <h3>Styles Gone</h3>
+                    <p class="price">$255.99</p>
+                    <button class="btn btn-secondary">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="image/product3.png" alt="Product Name">
+                    <h3>Men long T-shirt</h3>
+                    <p class="price">$119.99</p>
+                    <button class="btn btn-secondary">Add to Cart</button>
+                </div>
+                <!-- ... more products -->
+
+                <div class="product-item">
+                    <img src="image/product4.png" alt="Product Name">
+                    <h3>Long Kurti Set</h3>
+                    <p class="price">$120.99</p>
+                    <button class="btn btn-secondary">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="image/product5.png" alt="Product Name">
+                    <h3>Nick T-Shirt</h3>
+                    <p class="price">$200.99</p>
+                    <button class="btn btn-secondary">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="image/product6.png" alt="Product Name">
+                    <h3>Men Formal Dress</h3>
+                    <p class="price">$150.99</p>
+                    <button class="btn btn-secondary">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="image/product7.png" alt="Product Name">
+                    <h3>Printed T-Shirt</h3>
+                    <p class="price">$79.99</p>
+                    <button class="btn btn-secondary">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="image/product8.png" alt="Product Name">
+                    <h3>Full T-Shirt</h3>
+                    <p class="price">$75.99</p>
+                    <button class="btn btn-secondary">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="image/product9.png" alt="Product Name">
+                    <h3>Kurti set Dress</h3>
+                    <p class="price">$85.99</p>
+                    <button class="btn btn-secondary">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="image/product10.png" alt="Product Name">
+                    <h3>Styles Top set</h3>
+                    <p class="price">$100.99</p>
+                    <button class="btn btn-secondary">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="image/product12.png" alt="Product Name">
+                    <h3>Styles Kurti</h3>
+                    <p class="price">$95.99</p>
+                    <button class="btn btn-secondary">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+        <div class="footer-container"> <!-- Optional: Add a container for centering/width control -->
+            <div class="footer-links">
+                <a href="#">About Us</a>
+                <a href="#">Customer Service</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#contact">Contact Us</a> <!-- Link to contact section if you have one -->
+            </div>
+
+            <div class="social-media">
+                <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                <a href="#" target="_blank" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+            </div>
+
+            <p class="copyright">© 2025 Fashion Forward. All Rights Reserved.</p>
+            <p class="attribution">Designed with Saif<i class="fas fa-heart" style="color: red;"></i></p> <!-- Just for fun -->
+        </div>
+    <!-- ==================== END FOOTER ==================== -->
+    <!-- Cart Modal (keep as before) -->
+    <div class="cart-modal">
+       <!-- ... (modal content) ... -->
+    </div>
+        
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
